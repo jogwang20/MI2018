@@ -1,0 +1,13 @@
+{
+  "version" : "2.0.0",
+  "description" : "Mission Impossible",
+  "main" : "main.js",
+  "blipp" : {
+    "title" : "MIBlipp",
+    "shortTitle" : "MIBlipp"
+  },
+  "dependencies" : {
+    "blippar" : "1.7.2"
+  },
+  "name" : "MIBlipp"
+}

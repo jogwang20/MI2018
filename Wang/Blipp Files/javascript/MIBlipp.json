@@ -1,0 +1,140 @@
+{
+    "name": "MIBlipp",
+    "fileInfo": {
+        "timestamp": "2018-04-01.21:41:33",
+        "jsAPIVersion": "1.1.3"
+    },
+    "children": [{
+            "className": "Material",
+            "name": "Default",
+            "type": "matt"
+        },{
+            "className": "Transform",
+            "name": "scene_MIBlipp",
+            "children": [{
+                    "className": "Mesh",
+                    "name": "MoneyTalk",
+                    "mesh": "MoneyTalk2.md2",
+                    "sides": "both",
+                    "children": []
+                },{
+                    "className": "Mesh",
+                    "name": "Explosion",
+                    "mesh": "MoneyTalk2.md2",
+                    "sides": "both",
+                    "children": []
+                },{
+                    "className": "Mesh",
+                    "name": "t_box1",
+                    "mesh": "t_box1.md2",
+                    "material": "Default",
+                    "texture": ["tracking_box1.jpg","tracking_box1-A.jpg"],
+                    "sides": "both",
+                    "children": []
+                },{
+                    "className": "Mesh",
+                    "name": "t_box2",
+                    "mesh": "t_box2.md2",
+                    "material": "Default",
+                    "texture": ["tracking_box2.jpg","tracking_box2-A.jpg"],
+                    "sides": "both",
+                    "children": []
+                },{
+                    "className": "Mesh",
+                    "name": "t_box3",
+                    "mesh": "t_box3.md2",
+                    "material": "Default",
+                    "texture": ["tracking_box3.jpg","tracking_box3-A.jpg"],
+                    "sides": "both",
+                    "children": []
+                },{
+                    "className": "Mesh",
+                    "name": "t_detail",
+                    "mesh": "t_detail.md2",
+                    "material": "Default",
+                    "texture": ["text_detail.jpg","text_detail-A.jpg"],
+                    "sides": "both",
+                    "children": []
+                },{
+                    "className": "Mesh",
+                    "name": "t_ticket",
+                    "mesh": "t_ticket.md2",
+                    "material": "Default",
+                    "texture": ["text_ticket.jpg","text_ticket-A.jpg"],
+                    "sides": "both",
+                    "children": []
+                },{
+                    "className": "Mesh",
+                    "name": "t_video",
+                    "mesh": "t_video.md2",
+                    "children": []
+                },{
+                    "className": "Mesh",
+                    "name": "t_sns",
+                    "mesh": "t_sns.md2",
+                    "material": "Default",
+                    "texture": ["text_sns.jpg","text_sns-A.jpg"],
+                    "sides": "both",
+                    "children": []
+                },{
+                    "className": "Mesh",
+                    "name": "t_sns_face",
+                    "mesh": "t_sns_face.md2",
+                    "material": "Default",
+                    "texture": ["btn_facebook.jpg","btn_facebook-A.jpg"],
+                    "sides": "both",
+                    "children": []
+                },{
+                    "className": "Mesh",
+                    "name": "t_sns_inst",
+                    "mesh": "t_sns_inst.md2",
+                    "material": "Default",
+                    "texture": ["btn_instagram.jpg","btn_instagram-A.jpg"],
+                    "sides": "both",
+                    "children": []
+                },{
+                    "className": "Mesh",
+                    "name": "t_sns_line",
+                    "mesh": "t_sns_line.md2",
+                    "material": "Default",
+                    "texture": ["btn_line.jpg","btn_line-A.jpg"],
+                    "sides": "both",
+                    "children": []
+                },{
+                    "className": "Mesh",
+                    "name": "t_sns_tube",
+                    "mesh": "t_sns_tube.md2",
+                    "material": "Default",
+                    "texture": ["btn_youtube.jpg","btn_youtube-A.jpg"],
+                    "sides": "both",
+                    "children": []
+                },{
+                    "className": "Mesh",
+                    "name": "t_sns_twit",
+                    "mesh": "t_sns_twit.md2",
+                    "material": "Default",
+                    "texture": ["btn_twitter.jpg","btn_twitter-A.jpg"],
+                    "sides": "both",
+                    "children": []
+                },{
+                    "className": "Mesh",
+                    "name": "t_title",
+                    "mesh": "t_title.md2",
+                    "material": "Default",
+                    "texture": ["text_title.jpg","text_title-A.jpg"],
+                    "sides": "both",
+                    "children": []
+                }]
+        },{
+            "className": "Light",
+            "name": "Lamp",
+            "type": "point",
+            "attenuationCoeffs": [1, 0.033333, 0],
+            "origin": "main",
+            "translation": [407.624542, 100.545394, 590.38623],
+            "color": [1.0, 1.0, 1.0],
+            "specularColor": [1.0, 1.0, 1.0],
+            "intensity": 1.0
+        }],
+    "lights": ["Lamp"]
+}
